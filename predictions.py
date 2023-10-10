@@ -91,3 +91,5 @@ def predict(ticker):
     plt.legend()
     plt.title(f'{crypto_symbol} Future Price Prediction')
     plt.show()
+
+    return future_predictions_original, future_dates # Return the predicted prices and dates
